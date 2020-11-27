@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nobirthday</title>
+    <style>
+        body{
+    margin: 0;
+    background-color: #333;
+}
+.emoji__wrap {
+	height: 120px;
+	width: 120px;
+	background: #ffcc4d;
+	border-radius: 50%;
+	position: relative;
+  margin: 0 auto;
+}
+.emoji{
+	padding: 50px;
+  text-align: center;
+}
+.emoji_eye1{
+	 left: 29px;
+}
+.emoji_eye1, .emoji_eye2 {
+   height: 25px;
+    width: 16px;
+    background: #664500;
+    border-radius: 50%;
+    position: absolute;
+    top: 34px;
+}
+.emoji_eye2{
+	 right: 29px;
+}
+
+.emoji__smile{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-top: 9px solid #664500;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    height: 20px;
+    width: 45px;
+    margin: 0px auto 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+    transition: 0.3s linear all;
+}
+.emoji__wrap:hover .emoji__smile{
+	border-bottom: 9px solid #664500;
+	transition: 0.3s linear all;
+	border-top: 0;
+	bottom: 25px;
+
+}
+.eyes:after{
+	position: absolute;
+    height:0px;
+    width: 0px;
+    background: #ffffff;
+    content: "";
+    border-radius: 50%;
+    bottom: 0px;
+    left: 2px;
+    transition: 0.3s linear all;
+
+}
+
+.emoji__wrap:hover .eyes:after {
+   
+    height: 13px;
+    width: 10px;
+    transition: 0.3s linear all;
+}
+
+.emoji__tough {
+    height: 0px;
+    width: 20px;
+    background: #c30d0d;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    transition: 0.3s linear all;
+    top: 90px;
+}
+.emoji__wrap:hover .emoji__tough{
+	 height: 25px;
+	transition: 0.3s linear all;
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="emoji">
+        <div class="emoji__wrap">
+        <div class="emoji_eye1 eyes"></div>
+            <div class="emoji_eye2 eyes"></div>
+            <div class="emoji__smile"></div>
+            <div class="emoji__tough"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
+</body>
+</html>
